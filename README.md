@@ -8,7 +8,7 @@ I built a streamlit app to deploy my model (only on images). The code was extend
 The MTCNN library in python was used for face detection in the input feed. The faces were cropped and passed through the model to classify it into one of the emotions mentioned above. The model was built and implemented in Keras with a tensorflow backend. The model is deployed on streamlit. The Website can be run on the local server by running the following commands:
 
 ```
-git clone https://github.com/eklavyaj/Real-time-Emotion-Recognition/
+git clone https://github.com/ridhimagu/Real-time-Emotion-Recognition/
 cd Real-time-Emotion-Recognition/
 ```
 Install the requirements using (one may create a new conda enviroment):
